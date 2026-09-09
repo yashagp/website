@@ -1,0 +1,109 @@
+.pc-image-icon {
+  max-width: 1.25rem;
+}
+
+.pc-contact-grid {
+  display: grid;
+  grid-template-columns: 1.25rem auto;
+  gap: 1rem;
+}
+
+.pc-center-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.pc-footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.pc-subtitle {
+  font-size: 1rem;
+}
+
+.pc-map {
+  grid-column: span 2;
+}
+
+.pc-contact-form {
+  max-width: 350px;
+  margin: auto;
+}
+
+.pc-footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pc-footer-nav li {
+  margin-bottom: 4px;
+}
+
+.pc-footer-nav a {
+  text-decoration: none;
+}
+
+.pc-social-icons {
+  margin-top: 8px;
+}
+
+.pc-social-icons a {
+  margin: 0 4px;
+}
+
+.pc-social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  flex-direction: column;
+  padding: 6rem 0;
+}
+
+/* User information page */
+
+.pc-user-info .pc-img {
+  width: 250px;
+  float: left;
+  margin: 8px 16px 8px 0;
+  border-radius: 8px;
+}
+
+.pc-user-info .pc-user-name {
+  display: flex;
+  align-items: baseline;
+}
+
+.pc-user-info .testimonial-text {
+  max-width: 450px;
+  padding: 16px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.pc-user-info .testimonial-swiper {
+  overflow: hidden;
+}
+
+/* Swiper navigation arrow styles */
+.pc-user-info .swiper-button-next,
+.pc-user-info .swiper-button-prev {
+  width: 10px;
+  color: white;
+}
+
+.pc-user-info .swiper-pagination-bullet-active {
+  background-color: white; /* Change this to your desired active color */
+}
+
+@media screen and (max-width: 768px) {
+  .pc-user-info .pc-user-text {
+    display: flex;
+    flex-direction: column;
+  }
+}

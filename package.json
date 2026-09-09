@@ -1,6 +1,10 @@
 {
+  "name": "patwardhan-med-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website hosted on Firebase",
   "dependencies": {
-    "firebase-admin": "^11.11.0",
-    "firebase-functions": "^4.5.0"
+    "firebase-admin": "^13.0.0",
+    "firebase-functions": "^6.0.0"
   }
 }
